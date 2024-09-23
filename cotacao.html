@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotação</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://ih1.redbubble.net/image.2677414275.6595/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Logo" class="logo me-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li>
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" aria-current="page" href="cotacao.html">Cotação</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" aria-current="page" href="lista-cores.html">Lista de cores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2>Cotações de Moedas</h2>
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Moeda</th>
+                    <th>Cotação (BRL)</th>
+                    <th>Variação</th>
+                </tr>
+            </thead>
+            <tbody id="moedasaqui">
+                
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script src="js/cotacao.js"></script>
+</body>
+</html>

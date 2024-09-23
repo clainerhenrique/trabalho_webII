@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2, h1 {
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+
+.navbar {
+    background-color: #f0f0f0 !important; 
+}
+
+.navbar .nav-link {
+    color: #333 !important; 
+}
+
+.navbar .nav-link:hover {
+    color: #000 !important; 
+}
+.navbar-brand .logo {
+    width: 50px;  
+    height: 50px;  
+    display: flex;
+    vertical-align: middle;
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.character-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.character-card img {
+    margin-right: 20px;
+}
+
+#loading {
+    display: none;
+}
